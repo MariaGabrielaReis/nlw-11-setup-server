@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\lifetime\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @fastify/cors
+  C:\Program Files\nodejs\node.exe C:\Users\lifetime\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
 
 PATH: 
   C:\Users\lifetime\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\lifetime\bin;C:\Python310\Scripts;C:\Python310;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\lifetime\AppData\Local\Microsoft\WindowsApps;C:\Users\lifetime\AppData\Roaming\npm;C:\Users\lifetime\AppData\Local\Programs\Microsoft VS Code\bin;C:\Android\sdk\emulator;C:\Android\sdk\tools;C:\Android\sdk\tools\bin;C:\Android\sdk\platform-tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\lifetime\Desktop\personal\Projetcs\NLW_Setup\api\node_modules\prisma\engines\ceb5c99003b99c9ee2c1d2e618e359c14aef2ea5\query_engine-windows.dll.node'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\lifetime\Desktop\personal\Projetcs\NLW_Setup\api\node_modules\@prisma\engines\query_engine-windows.dll.node'
 
 npm manifest: 
   {
