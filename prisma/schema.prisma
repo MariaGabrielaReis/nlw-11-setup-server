@@ -1,8 +1,9 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
+}
+
+generator erd {
+  provider = "prisma-erd-generator"
 }
 
 datasource db {
@@ -38,7 +39,7 @@ model Day {
 
   dayHabits DayHabit[]
 
-  @@unique([date])
+  @@index([date])
   @@map("days")
 }
 
@@ -50,6 +51,6 @@ model DayHabit {
   day   Day   @relation(fields: [day_id], references: [id])
   habit Habit @relation(fields: [habit_id], references: [id])
 
-  @@unique([habit_id, day_id])
+  @@unique([day_id, habit_id])
   @@map("day_habits")
 }
